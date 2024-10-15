@@ -3,9 +3,9 @@
 int main()
  {
     char upper;
-    printf("è¯·è¾“å…¥ä¸€ä¸ªå¤§å†™å­—æ¯ï¼š");
+    printf("ÇëÊäÈëÒ»¸ö´óĞ´×ÖÄ¸£º");
     scanf("%c", &upper);
     char lower = upper + 32;
-    printf("å¯¹åº”çš„å°å†™å­—æ¯æ˜¯ï¼š%c\n", lower);
+    printf("¶ÔÓ¦µÄĞ¡Ğ´×ÖÄ¸ÊÇ£º%c\n", lower);
     return 0;
 }
