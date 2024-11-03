@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main()
 {
     int n;
@@ -26,8 +25,8 @@ int main()
         num[i] = encryptedData;
     }
 
-
- for (int i = 0; i < n; i++) {
+    for (int i = 0; i < n; i++)
+    {
         printf("%d\n", num[i]);
     }
     return 0;
